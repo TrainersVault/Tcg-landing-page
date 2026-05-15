@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================
+       SEO META TAGS — edit the title and description below
+       ============================================ -->
+  <title>Trainers Vault LLC | Pokémon TCG Live Rips & Collector Streams</title>
+  <meta name="description" content="Join Trainers Vault LLC for live Pokémon TCG rips, giveaways, singles, and collector-focused streams on Whatnot and social media." />
+  <meta name="keywords" content="Pokemon TCG, live rips, Whatnot, pack breaks, collector streams, Trainers Vault" />
+  <meta name="author" content="Trainers Vault LLC" />
+
+  <!-- Open Graph (Facebook/Discord preview) -->
+  <meta property="og:title" content="Trainers Vault LLC | Pokémon TCG Live Rips" />
+  <meta property="og:description" content="Join Trainers Vault LLC for live Pokémon TCG rips, giveaways, and collector-focused streams." />
+  <meta property="og:image" content="images/og-image.png" />
+  <meta property="og:url" content="https://yourusername.github.io/trainers-vault" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Trainers Vault LLC" />
+  <meta name="twitter:description" content="Live Pokémon TCG rips, giveaways & collector streams on Whatnot." />
+
+  <!-- ============================================
+       FAVICON — place your logo as images/favicon.png
+       ============================================ -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/favicon.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================
+       LOADING SCREEN
+       ============================================ -->
+  <div id="loader">
+    <div class="loader-ball">
+      <div class="ball-top"></div>
+      <div class="ball-middle"></div>
+      <div class="ball-bottom"></div>
+      <div class="ball-center"></div>
+    </div>
+    <p class="loader-text">Entering the Vault...</p>
+  </div>
+
+  <!-- ============================================
+       NAVIGATION — edit links and brand name here
+       ============================================ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <!-- Logo image: place your logo at images/logo.png -->
+        <img src="images/favicon.png" alt="Trainers Vault Logo" class="nav-logo-img" />
+        <span class="nav-brand">Trainers Vault</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- ============================================
+             MAIN CTA BUTTON — change href to your Whatnot URL
+             ============================================ -->
+        <li><a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="nav-cta">Watch Live</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION — edit headline, subtext, and button links
+       ============================================ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="pokeball-bg pokeball-1"></div>
+      <div class="pokeball-bg pokeball-2"></div>
+      <div class="pokeball-bg pokeball-3"></div>
+      <div class="scanlines"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🔴 Live on Whatnot</div>
+      <h1 class="hero-headline">
+        <span class="line-1">Rip Packs.</span>
+        <span class="line-2">Chase Grails.</span>
+        <span class="line-3">Join the <span class="text-red">Vault.</span></span>
+      </h1>
+      <p class="hero-sub">
+        Live Pokémon &amp; TCG rips, singles, giveaways, and collector-focused streams on Whatnot. Starting at <strong>$1</strong>.
+      </p>
+      <div class="hero-buttons">
+        <!-- Change these href values to your actual links -->
+        <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="btn btn-primary">
+          <span>Watch Live Now</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">$1</span>
+          <span class="stat-label">Starts At</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">LIVE</span>
+          <span class="stat-label">Pack Rips</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Community Driven</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <!-- AVATAR IMAGE: place your avatar at images/avatar.png -->
+      <div class="hero-avatar-ring">
+        <img src="images/avatar.png" alt="Trainers Vault host" class="hero-avatar" />
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TICKER / MARQUEE BAR — edit the text items here
+       ============================================ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>🔴 LIVE PACK RIPS</span>
+      <span>⚡ POKÉMON TCG</span>
+      <span>🎁 GIVEAWAYS</span>
+      <span>💎 CHASE CARDS</span>
+      <span>📦 BOOSTER BOXES</span>
+      <span>🏆 SINGLES &amp; SETS</span>
+      <span>🔴 LIVE PACK RIPS</span>
+      <span>⚡ POKÉMON TCG</span>
+      <span>🎁 GIVEAWAYS</span>
+      <span>💎 CHASE CARDS</span>
+      <span>📦 BOOSTER BOXES</span>
+      <span>🏆 SINGLES &amp; SETS</span>
+    </div>
+  </div>
+
+  <!-- ============================================
+       ABOUT SECTION — edit the text below
+       ============================================ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-tag">About Us</div>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <h2>Built by Collectors,<br /><span class="text-red">For Collectors.</span></h2>
+          <p>
+            At Trainers Vault LLC, we're more than just a Pokémon &amp; TCG stream — we're a community built by collectors, for collectors. From exciting live pack breaks and chase-card hunts to singles, giveaways, and interactive streams, our goal is to bring the thrill of collecting to every viewer.
+          </p>
+          <p>
+            Whether you're hunting grails, building your collection, or just enjoying the excitement of the hobby, Trainers Vault is the place to rip, trade, and connect with fellow fans. We focus on creating a fun, trustworthy, and high-energy experience where every stream feels like opening packs with friends.
+          </p>
+          <p class="about-tagline">Join the Vault and be part of the next big pull.</p>
+          <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="btn btn-primary">Watch on Whatnot</a>
+        </div>
+        <div class="about-features fade-in">
+          <!-- Edit these feature cards -->
+          <div class="feature-card">
+            <div class="feature-icon">🎴</div>
+            <h3>Live Pack Rips</h3>
+            <p>Watch every pull happen in real time. No cuts, no edits — pure collector energy.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🤝</div>
+            <h3>Community First</h3>
+            <p>We listen to the community. Suggest products, request rips, and shape the stream.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📦</div>
+            <h3>Safe Shipping</h3>
+            <p>Every card is sleeved, top-loaded, and team-bagged before it leaves the Vault.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎁</div>
+            <h3>Regular Giveaways</h3>
+            <p>Active community members get rewarded. Giveaways happen live on stream.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PRODUCTS / SERVICES SECTION — edit cards below
+       ============================================ -->
+  <section id="products">
+    <div class="container">
+      <div class="section-tag">What We Offer</div>
+      <h2 class="section-title">Products &amp; <span class="text-red">Services</span></h2>
+      <p class="section-sub">From budget rips to premium boxes — there's something in the Vault for every collector.</p>
+      <div class="products-grid">
+        <!-- Edit each product card: icon, title, description, price, and button link -->
+        <div class="product-card fade-in">
+          <div class="product-icon">⚡</div>
+          <h3>Pokémon TCG Packs</h3>
+          <p>Live rips of the latest Pokémon sets — booster packs, ETBs, booster boxes, and more.</p>
+          <div class="product-price">Starting at <strong>$1</strong></div>
+          <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="btn btn-outline">Shop Now</a>
+        </div>
+        <div class="product-card featured fade-in">
+          <div class="product-badge">Most Popular</div>
+          <div class="product-icon">📦</div>
+          <h3>Live Box Breaks</h3>
+          <p>Booster boxes, specialty collections, and vintage products cracked live on Whatnot. Every pull, every reaction — unfiltered.</p>
+          <div class="product-price">Starting at <strong>$1</strong></div>
+          <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="btn btn-primary">Join Live Break</a>
+        </div>
+        <div class="product-card fade-in">
+          <div class="product-icon">🃏</div>
+          <h3>TCG Singles &amp; Collectables</h3>
+          <p>Browse individual cards, sealed collectables, and specialty items from Pokémon and other TCGs.</p>
+          <div class="product-price">Starting at <strong>$1</strong></div>
+          <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="btn btn-outline">Browse Singles</a>
+        </div>
+        <div class="product-card fade-in">
+          <div class="product-icon">🔗</div>
+          <h3>Affiliate Products</h3>
+          <p>Recommended sleeves, binders, top loaders, and collector gear — trusted products we actually use.</p>
+          <div class="product-price">Check links</div>
+          <a href="#contact" class="btn btn-outline">Get Links</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       GALLERY SECTION — replace src with real images
+       Place images in the images/ folder and update names
+       ============================================ -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-tag">The Vault in Action</div>
+      <h2 class="section-title">Pack Rips &amp; <span class="text-red">Pulls</span></h2>
+      <div class="gallery-grid">
+        <!-- Replace these placeholder images with your own. Name them gallery-1.png, gallery-2.png, etc. -->
+        <div class="gallery-item fade-in" style="--i:0">
+          <img src="https://placehold.co/600x400/1a1a1a/e63946?text=Pack+Rip+1" alt="Live pack rip" loading="lazy" />
+          <div class="gallery-overlay"><span>Live Rip</span></div>
+        </div>
+        <div class="gallery-item fade-in" style="--i:1">
+          <img src="https://placehold.co/600x400/1a1a1a/e63946?text=Big+Pull" alt="Big pull" loading="lazy" />
+          <div class="gallery-overlay"><span>Big Pull 🔥</span></div>
+        </div>
+        <div class="gallery-item fade-in" style="--i:2">
+          <img src="https://placehold.co/600x400/1a1a1a/e63946?text=Box+Break" alt="Box break" loading="lazy" />
+          <div class="gallery-overlay"><span>Box Break</span></div>
+        </div>
+        <div class="gallery-item fade-in" style="--i:3">
+          <img src="https://placehold.co/600x400/1a1a1a/e63946?text=Chase+Card" alt="Chase card" loading="lazy" />
+          <div class="gallery-overlay"><span>Chase Card</span></div>
+        </div>
+        <div class="gallery-item fade-in" style="--i:4">
+          <img src="https://placehold.co/600x400/1a1a1a/e63946?text=Singles" alt="Singles" loading="lazy" />
+          <div class="gallery-overlay"><span>Singles</span></div>
+        </div>
+        <div class="gallery-item fade-in" style="--i:5">
+          <img src="https://placehold.co/600x400/1a1a1a/e63946?text=Community" alt="Community" loading="lazy" />
+          <div class="gallery-overlay"><span>Community</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FAQ SECTION — edit questions & answers here
+       ============================================ -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-tag">FAQ</div>
+      <h2 class="section-title">Got <span class="text-red">Questions?</span></h2>
+      <div class="faq-list">
+        <!-- Copy/paste a .faq-item block to add more questions -->
+        <div class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is Trainers Vault LLC?</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-answer">
+            <p>Trainers Vault LLC is a Pokémon &amp; TCG streaming community focused on live pack rips, singles, giveaways, and collector entertainment through Whatnot and social platforms.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>Where do you stream live?</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-answer">
+            <p>Most live streams and rips take place on Whatnot, with additional content and updates shared across social media.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>What types of cards do you open?</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-answer">
+            <p>We primarily focus on Pokémon TCG products, including booster boxes, ETBs, specialty collections, vintage products, and occasional other trading card games.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do live rips work?</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-answer">
+            <p>During a live rip, viewers purchase spots, packs, or products, and everything is opened live on stream. Hits are sleeved, protected, and shipped directly to customers.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you ship cards safely?</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. All cards are packaged carefully using sleeves, top loaders, team bags, and protective mailers to help ensure they arrive safely.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I request specific products or participate in future rips?</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We love community input. Feel free to reach out during streams or through social media with suggestions for future rips, products, or events.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION — edit email and social links
+       ============================================ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">Join the <span class="text-red">Vault</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <h3>Connect With Us</h3>
+          <p>Have questions, product suggestions, or just want to talk Pokémon? Reach out — we'd love to hear from you.</p>
+          <div class="contact-links">
+            <!-- Edit email and social links below -->
+            <a href="mailto:trainersvaultllc@yahoo.com" class="contact-link">
+              <span class="contact-icon">✉️</span>
+              <span>trainersvaultllc@yahoo.com</span>
+            </a>
+            <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-icon">🎥</span>
+              <span>Whatnot: @bradhar56040</span>
+            </a>
+            <a href="https://instagram.com/trainersvaultllc" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-icon">📸</span>
+              <span>Instagram: @trainersvaultllc</span>
+            </a>
+          </div>
+          <div class="social-buttons">
+            <a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener" class="btn btn-primary">Watch on Whatnot</a>
+            <a href="https://instagram.com/trainersvaultllc" target="_blank" rel="noopener" class="btn btn-secondary">Follow on Instagram</a>
+          </div>
+        </div>
+
+        <!-- ============================================
+             CONTACT FORM — using Formspree
+             Replace YOUR_FORM_ID with your actual Formspree form ID
+             Get one free at formspree.io
+             ============================================ -->
+        <div class="contact-form-wrap fade-in">
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Ash Ketchum" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="ash@pokemon.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Select a topic...</option>
+                <option value="product-request">Product Request</option>
+                <option value="live-rip">Join a Live Rip</option>
+                <option value="shipping">Shipping Question</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us what's on your mind..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+            </button>
+            <div id="formSuccess" class="form-success" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER — edit links, email, and social handles
+       ============================================ -->
+  <footer id="footer">
+    <div class="footer-ball-bg"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/favicon.png" alt="Trainers Vault Logo" class="footer-logo" />
+          <p class="footer-tagline">Powered by the Hobby.</p>
+          <p class="footer-desc">Live Pokémon &amp; TCG rips, singles, giveaways, and collector-focused streams on Whatnot.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Watch &amp; Follow</h4>
+          <ul>
+            <li><a href="https://www.whatnot.com/user/bradhar56040" target="_blank" rel="noopener">Whatnot</a></li>
+            <li><a href="https://instagram.com/trainersvaultllc" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="mailto:trainersvaultllc@yahoo.com">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Trainers Vault LLC. All rights reserved.</p>
+        <p class="footer-disclaimer">Trainers Vault LLC is not affiliated with Nintendo, The Pokémon Company, or any TCG publisher.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
