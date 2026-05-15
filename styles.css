@@ -690,6 +690,10 @@ ul { list-style: none; }
   color: var(--color-white);
 }
 .product-card p { font-size: 0.92rem; color: var(--color-text-muted); flex: 1; }
+
+.product-card .btn {
+  margin-top: auto;
+}
 .product-price {
   font-family: var(--font-heading);
   font-size: 0.95rem;
